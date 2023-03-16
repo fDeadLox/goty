@@ -2,7 +2,8 @@ body {
     background-color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    }
-     .rectangle {
+     
+.rectangle {
          flex: 16.66666667;
          background-color: #F0F0F0;
          border-radius: 10px;
@@ -23,7 +24,7 @@ body {
    vertical-align: top;
  }
 
-   .product-grid {
+.product-grid {
      display: grid;
      grid-template-columns: repeat(6, 1fr);
      grid-gap: 8px;
@@ -35,45 +36,54 @@ body {
    text-decoration: none;
    padding: 0px;
  }
-   .product-card {
+
+.product-card {
      background-color: #fff;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
      transition: 0.3s;
    }
-   .product-card:hover {
+   
+.product-card:hover {
      box-shadow: 0 20px 32px 0 rgba(0, 0, 0, 0.2);
    }
-     .container {
+     
+.container {
          overflow: hidden;
      }
-     div {
+     
+div {
          transition: all 0.5s ease;
          position: relative;
      }
-     div:hover {
+     
+div:hover {
          transform: scale(1.0058);
      }
-   .product-image {
+   
+.product-image {
      max-width: 100%;
      max-height: 100%;
    }
-   .product-info {
+   
+.product-info {
      padding: 5px;
    }
-   .product-name {
+   
+.product-name {
      font-weight: bold;
      font-size: 1.2em;
    }
-   .product-price {
+   
+.product-price {
      color: #333;
      font-size: 1em;
    }
 
-   .video-container {
+.video-container {
     position: relative;
   }
   
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -83,14 +93,15 @@ body {
     display: none;
   }
   
-  .video-container:hover .overlay {
+.video-container:hover .overlay {
     display: block;
   }
   
-  .video-container:hover .video {
+.video-container:hover .video {
     display: block;
   }
-  .video {
+  
+.video {
     width: 100%;
     height: 100%;
     object-fit: contain;
